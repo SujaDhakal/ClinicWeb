@@ -1,0 +1,50 @@
+.team-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding:5% 0;
+}
+.team-content{
+  flex:40%;
+  background: #7BAEBF;
+  margin:8% 0 8% 8%;
+  padding:6%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.team-img{
+    flex:60%;
+    padding:5% 0;
+}
+.team-img img{
+    width:100%;
+}
+/* .team-img {
+    flex:60%;
+    width:50%;
+    height: 10px;
+    background: url(../assets/team.jpg) no-repeat;
+    background-size:fit;
+  } */
+@media screen and (max-width: 600px){
+    .team-section{
+     display:block;
+     margin-top:5%;
+     padding:0;
+    }
+    .team-content{
+     margin:0 5% -2% 5%;
+     padding: 2% 5% ;
+    }
+    .team-content h3{
+        margin:0;
+    }
+    .team-img{
+        flex:60%;
+        padding:0;
+    }
+}

@@ -1,0 +1,41 @@
+.belief-section{
+    background: #7BAEBF;
+}
+.belief-section h3{
+    font-size: 1.75rem;
+    margin: 0;
+    padding:5% 0;
+    color: white;
+}
+.belief-cards{
+ padding: 2rem 2rem 0 2rem;
+ display:flex;
+ justify-content: space-around;
+ color: #E4BE37;
+ font-weight: bold;
+ font-size: 1.15rem;;
+}
+.cards{
+    background: white;
+    height: 15rem;
+    width:20%;
+    padding:2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px){
+    .belief-cards{
+        display:grid;
+        grid-template-columns: auto auto ;
+    }
+    .cards{
+        width:90%;
+        height:90%;
+        margin:0 auto;
+        padding:2rem 0.5rem;
+        box-sizing: border-box;
+    }
+}
